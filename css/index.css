@@ -1,0 +1,74 @@
+body{
+    background: #9c9bd594;
+}
+
+.custom-container{
+    position: absolute;
+    padding: 10px;
+    width: 70%;
+    z-index: 1;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 1px 4px 39px #0000004a;
+    opacity: 1;
+    border-radius: 18px;
+    animation: animateZoom 1s;
+    font-weight: 500;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: larger;
+}
+
+.heading{
+    top: 20%;
+    background: none;
+    box-shadow: none;
+}
+.heading h1 {
+    font-size: 72px;
+    background: -webkit-linear-gradient(#6f84d978, rgb(66, 73, 137));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 10px;
+    font-family: cursive;
+}
+
+.controls{
+    top: 80%;
+    background: #FFFFFF;
+    font-family: 'Phosphor';
+}
+
+.controls h3, .controls h4{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.controls h4{
+    color: rgb(24 153 24);
+}
+
+.cell {
+    padding: 10px;
+    color: blueviolet;
+    background: #a8a4e354;
+}
+
+.cell:nth-child(1){
+    border-right: 3px solid #8a2be24a;
+}
+.cell:nth-child(2){
+    border-right: 3px solid #8a2be24a;
+}
+.cell-container:nth-child(2){
+    border-top: 3px solid #8a2be24a;
+    border-bottom: 3px solid #8a2be24a;
+}
+
+.cell-container{
+    margin-left: 5px;
+    margin-right: 5px;
+}
